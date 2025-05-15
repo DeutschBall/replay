@@ -1,0 +1,17 @@
+curl -k ^"https://192.168.10.201:8077/university/etTask/attackUavThrowSendAutoReturnType^" ^
+  -H ^"accept: application/json, text/plain, */*^" ^
+  -H ^"accept-language: zh-CN,zh;q=0.9^" ^
+  -H ^"authorization: Bearer 66de6ffd5ba0b664cd3190cd34529f27^" ^
+  -H ^"content-type: application/x-www-form-urlencoded^" ^
+  -b ^"token=66de6ffd5ba0b664cd3190cd34529f27^" ^
+  -H ^"origin: https://127.0.0.1:8077^" ^
+  -H ^"priority: u=1, i^" ^
+  -H ^"referer: https://127.0.0.1:8077/xidian/^" ^
+  -H ^"sec-ch-ua: ^\^"Google Chrome^\^";v=^\^"135^\^", ^\^"Not-A.Brand^\^";v=^\^"8^\^", ^\^"Chromium^\^";v=^\^"135^\^"^" ^
+  -H ^"sec-ch-ua-mobile: ?0^" ^
+  -H ^"sec-ch-ua-platform: ^\^"Windows^\^"^" ^
+  -H ^"sec-fetch-dest: empty^" ^
+  -H ^"sec-fetch-mode: cors^" ^
+  -H ^"sec-fetch-site: same-origin^" ^
+  -H ^"user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36^" ^
+  --data-raw ^"taskId=426647879942209536^&uavId=388885047860985857^"

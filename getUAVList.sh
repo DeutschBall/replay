@@ -1,0 +1,4 @@
+curl --path-as-is -i -s -k -X $'GET' \
+    -H $'Host: 192.168.10.201:8077' -H $'Sec-Ch-Ua-Platform: \"Windows\"' -H $'Authorization: Bearer 7b08c2809ee9bcf2765740489ca5ab78' -H $'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36' -H $'Accept: application/json, text/plain, */*' -H $'Sec-Ch-Ua: \"Chromium\";v=\"136\", \"Microsoft Edge\";v=\"136\", \"Not.A/Brand\";v=\"99\"' -H $'Sec-Ch-Ua-Mobile: ?0' -H $'Sec-Fetch-Site: same-origin' -H $'Sec-Fetch-Mode: cors' -H $'Sec-Fetch-Dest: empty' -H $'Referer: https://192.168.10.201:8077/xidian/' -H $'Accept-Encoding: gzip, deflate, br' -H $'Accept-Language: zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6' -H $'Priority: u=1, i' \
+    -b $'token=7b08c2809ee9bcf2765740489ca5ab78' \
+    $'https://192.168.10.201:8077/university/acUav/getUavList'
